@@ -10,8 +10,8 @@ from sklearn.base import BaseEstimator, _pprint
 from sklearn.utils import check_array, check_random_state
 from sklearn.utils.validation import check_is_fitted
 
-from . import _hmmc
-from .utils import normalize, log_normalize, iter_from_X_lengths
+from hmmlearn import _hmmc
+from hmmlearn.utils import normalize, log_normalize, iter_from_X_lengths
 
 
 #: Supported decoder algorithms.
