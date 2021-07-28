@@ -314,7 +314,7 @@ class GaussianHMM(_BaseHMM):
 
 
 def gaussiana(x, mu, sigma2):
-    return (1.0/np.sqrt(2*np.pi*sigma2))*np.exp(((x - mu)**2)/(2*sigma2))
+    return (1.0/np.sqrt(2*np.pi*sigma2))*np.exp(-0.5*((x - mu)**2)/sigma2)
 
 class GaussianFSHMM(GaussianHMM):
     def __init__(self, k, **kwargs):
