@@ -2,7 +2,7 @@
 
 This repository presents an implementation of the feature saliency HMM algorithm as proposed by Adams et. al in the paper [Feature Selection for Hidden Markov Models and Hidden Semi-Markov Models](https://ieeexplore.ieee.org/document/7450620). The implementation is a modification of the GaussianHMM class of [hmmlearn](https://hmmlearn.readthedocs.io/).
 
-<img src="FSHMM-diagram.png" alt="FSHMM-diagram" style="zoom:15%;" />
+<img src="FSHMM-diagram.png" alt="FSHMM-diagram" style="zoom:10%;" />
 
 ### Requirements:
 
